@@ -1,0 +1,95 @@
+*{
+margin: 0px;
+padding: 0%;
+}
+
+
+.container-fluid {
+  display:flex;
+  background-color: aqua;
+  }
+  
+  
+.navbar-brand {
+border-right: 4px solid whitesmoke;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+
+}
+
+b {
+  color:gray;
+}
+
+li {
+  display: block;
+  padding: 0 20px;
+  color: aqua;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+li:hover {
+  transition: 1s;
+  transform: scale(1.3);
+}
+
+body{
+  background-size: cover;
+  margin: 0%;
+  background: url('https://www.binde.com/wp-content/uploads/2019/05/contact_bg.png') no-repeat center fixed;
+ 
+}
+
+
+.Soc {
+    position:static;
+  text-align: center;
+  
+}
+
+    
+.Soc a {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background: #b4acac;
+    margin: 10px;
+    border-radius: 30%;
+    text-align: center;
+    }
+    
+.Soc a i {
+    color: #0088cc;
+    font-size: 40px;
+    margin-top: 30px;
+    }
+    
+.Soc a:hover {
+    background: #0088cc;
+    transition: 1s;
+    }
+    
+.Soc a:hover i {
+    color: #f1f1f1;
+    transition: 1s;
+    transform: scale(1.3);
+    }
+
+
+.img {
+    filter: brightness(50%);
+    background-size: cover;
+    position:  no-repeat center fixed;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-size: 50px;
+}
+
+
+
